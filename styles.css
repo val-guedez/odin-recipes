@@ -42,3 +42,13 @@ span {
 img {
     display: block;
 }
+
+#cookie-img {
+    width: 500px;
+    height: 600px;
+}
+
+#mugcake-img {
+    width: 600px;
+    height: 380px;
+}
