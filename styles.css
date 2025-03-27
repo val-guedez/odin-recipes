@@ -54,25 +54,37 @@ body {
 }
 
 .home-link {
-    font-size: 25px;
+    font-size: 20px;
     border-style: dashed;
     padding-left: 5px;
     padding-right: 5px;
     background-color: white;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 .recipe-title, .recipe-subtitle {
     font-family: "Sue Ellen Francisco", cursive;
     background-color: lightpink;
-    display: inline-block;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 28px;
 }
 
 .recipe-text {
     font-family: cursive;
+    margin-left: 10px;
 }
 
 .heart {
     color: lightpink;
+}
+
+img {
+    margin: auto;
+    display: block;
 }
 
 #cookie-img {
